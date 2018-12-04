@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>hello</p>
+<p id="demo"></p>
+<p>sccreen size</p>
+
+
+
+<script>
+window.addEventListener("resize", myFunction);
+function myFunction() {
+var h=window.outerHeight;
+var w=window.outerWidth;
+document.getElementById("demo").innerHTML="height "+h+" width:"+w;
+}
+</script>
+
+</body>
+</html>

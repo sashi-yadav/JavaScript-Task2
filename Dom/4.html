@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The select Element</h2>
+<p>The select element defines a drop-down list:</p>
+<form>
+  <select id="dropDown" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <input type="button" onclick="myFunction()" value="Remove">
+  </form>
+<script>
+	function myFunction(){
+	var select=document.getElementById('dropDown');
+       	select.remove(select.selectedIndex);
+    }
+</script>
+</body>
+</html>
