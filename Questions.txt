@@ -1,0 +1,185 @@
+1. Write a JavaScript function to parameterize a string.
+
+Test Data :
+console.log(string_parameterize("Robin Singh from USA."));
+
+"robin-singh-from-usa"
+
+
+2. Write a JavaScript function to concatenates a given string n times (default is 1). 
+
+Test Data :
+
+console.log(repeat('Ha!')); 
+
+console.log(repeat('Ha!',2)); 
+
+console.log(repeat('Ha!',3));
+
+"Ha!" 
+
+"Ha!Ha!" 
+
+"Ha!Ha!Ha!"
+
+
+
+3. Write a JavaScript function to insert a string within a string at a particular position (default is 1)
+
+Test Data :
+
+console.log(insert('We are doing some exercises.')); 
+
+console.log(insert('We are doing some exercises.','JavaScript ')); 
+
+console.log(insert('We are doing some exercises.','JavaScript ',18));
+
+"We are doing some exercises." 
+
+"JavaScript We are doing some exercises." 
+
+"We are doing some JavaScript exercises."
+
+
+
+4.Write a JavaScript function to repeat a string a specified times. 
+
+Test Data :
+
+console.log(repeat_string('a', 4)); 
+
+console.log(repeat_string('a'));
+
+Output : 
+
+"aaaa" 
+
+"Error in string or count."
+
+
+
+___ Dates ___
+
+
+1. Write a JavaScript function to get the number of days in a month. 
+
+
+Test Data :
+
+console.log(getDaysInMonth(1, 2012)); 
+
+console.log(getDaysInMonth(2, 2012)); 
+
+console.log(getDaysInMonth(9, 2012)); 
+
+console.log(getDaysInMonth(12, 2012)); 
+
+Output :
+
+31 
+
+29 
+
+30 
+
+31
+
+
+
+2. Write a JavaScript function to get the month name from a particular date. 
+
+
+Test Data :
+
+console.log(month_name(new Date("10/11/2009"))); 
+
+console.log(month_name(new Date("11/13/2014")));
+
+Output :
+
+"October" 
+
+"November"
+
+
+
+3.Write a JavaScript function to compare dates (i.e. greater than, less than or equal to).
+
+
+Test Data :
+
+console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:00'))); 
+
+console.log(compare_dates(new Date('11/14/2013 00:01'), new Date('11/14/2013 00:00'))); 
+
+console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:01')));
+
+Output :
+
+"Date1 = Date2" 
+
+"Date1 > Date2" 
+
+"Date2 > Date1"
+
+
+
+
+4.Write a JavaScript function to test whether a date is a weekend. 
+
+
+Test Data :
+
+console.log(is_weekend('Nov 15, 2014')); 
+
+console.log(is_weekend('Nov 16, 2014')); 
+
+console.log(is_weekend('Nov 17, 2014'));
+
+Output :
+
+"weekend" 
+
+"weekend" 
+
+"not a weekend"
+
+
+
+5.Write a JavaScript function to calculate 'yesterday day'.
+
+Test Data :
+
+console.log(yesterday('Nov 15, 2014')); 
+
+console.log(yesterday('Nov 16, 2015')); 
+
+console.log(yesterday('Nov 17, 2016'));
+
+Output :
+
+"Fri Nov 14 2014 00:00:00 GMT+0530 (India Standard Time)" 
+
+"Sun Nov 15 2015 00:00:00 GMT+0530 (India Standard Time)" 
+
+"Wed Nov 16 2016 00:00:00 GMT+0530 (India Standard Time)"
+
+
+
+
+___DOM___
+
+
+1.Clicking on the button the font, font size, and color of the paragraph text will be changed.
+
+
+2. Write a JavaScript program to set the background color of a paragraph. (on click of button)
+3
+
+. Write a JavaScript function to add rows to a table. (on click of button)
+
+
+4. Write a JavaScript program to remove items from a dropdown list. (on button click)
+
+
+5. Write a JavaScript program to get the width and height of the window (any time the window is resized).
